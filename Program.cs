@@ -10,9 +10,13 @@ namespace ConsoleApplication2
     {
         static void Main(string[] args)
         {
-            Console.Write("Hello");
-            Console.WriteLine("there");
+            Print("Hello");
             Console.ReadKey();
+        }
+
+        static void Print(string text)
+        {
+            Console.WriteLine(text);
         }
     }
 }
